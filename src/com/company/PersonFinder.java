@@ -39,7 +39,7 @@ public class PersonFinder {
                 }
             }
         }
-        if (!buffer.equals("")){ // if we have something in our buffer at the end of the file, then print it
+        if (!buffer.equals("")){ // if we have something in our buffer at the end of the file, then add it
             persons.add(buffer.trim());
         }
         return persons;
