@@ -13,6 +13,6 @@ To evaluate performance (precision, recall) on a test case, run:
 java NamedEntityRecognition --evaluate <testFilePath>
 ```
 
-See test-data/oracle.json for an example of a test case file.
+See [test-data/oracle.json](https://github.com/askeluv/named-entity-recognition/blob/master/test-data/oracle.json) for an example of a test case file.
 
 Note that the lib folder contains the required external JARs (Stanford NER, Apache Tika, JSON Simple).
